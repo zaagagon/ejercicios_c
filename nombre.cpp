@@ -9,7 +9,8 @@ string nickname;
 cout<<"digite su nombre :";
 cin>>nombre;
 cout<<"cual es su nickname :";
-cout<<"Hola "<<nombre<<"bienvenido ";
+cin>>nickname;
+cout<<"Hola "<<nombre<<" bienvenido "<<"su nick es :"<<nickname<<"\n";
 
 }
 
