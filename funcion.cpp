@@ -8,7 +8,8 @@ int suma(int a,int b) {
 int main() {
    
 
-    int total =20;
+    int total =20; //variable
     cout<<"suma"<<total<<'\n';
-    cout<<suma(7,4);
+    cout<<'int a';
+    cout<<"La suma de "<<'a'<<'b'<<suma(7,4);
 }
