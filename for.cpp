@@ -4,6 +4,7 @@
 using namespace std;
 
 int cont =10;
+//funcion principal o main
 int main(){
 
     for (int a=1;a<=cont;a++){
