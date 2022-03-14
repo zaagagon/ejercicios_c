@@ -6,17 +6,17 @@ using namespace std;
 int main()
 {
   float n1, n2;
-  char op;//variable para menu
+  char opcion;//variable para menu
   double r;
   cout<<"*+Programa que realiza operaciones matematicas**";
   cout<<"Ingrese primer Nro: ";
   cin>>n1;
   cout<<"Ingrese operador (+,-,*,/,#): ";
-  cin>>op;
+  cin>>opcion;//dato ingresado por teclado
   cout<<"Ingrese segundo Nro: ";
   cin>>n2;
   //sentencia para crear menu
-  switch(op){case '+': r=n1+n2; break;
+  switch(opcion){case '+': r=n1+n2; break;
              case '-': r=n1-n2; break;
              case '*': r=n1*n2; break;
              case '/': r=n1/n2; break;
