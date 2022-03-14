@@ -8,6 +8,7 @@ int main()
   float n1, n2;
   char op;
   double r;
+  cout<<"*+Programa que realiza operaciones matematicas**"
   cout<<"Ingrese primer Nro: ";
   cin>>n1;
   cout<<"Ingrese operador (+,-,*,/,#): ";
@@ -23,6 +24,7 @@ int main()
              exit(1);
              }
   cout<<"El resultado es: "<<r;
+ 
 
 //getch();
 }
