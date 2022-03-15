@@ -9,14 +9,14 @@ int suma(int a,int b){
   #include<windows.h>
 #endif  
 //funcion limpiar pantalla
-void limpiar_pantalla()
+/*void limpiar_pantalla()
 {
   #ifdef _WIN32
     system("cls");
   #else
     system("clear");
   #endif
-}
+}*/
 
 //funcion principal
 //g++ menu3.cpp -o menu3
