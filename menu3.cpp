@@ -10,6 +10,7 @@ int suma(int a,int b){
 int main(){
     //prueba 
     cout<<"** PRUEBA **";
-    cout<<suma(4,5)<<"\n";//imprime enter
+    cout<<"\n";
+    cout<<"Resultado de la operación : "<<suma(4,5)<<"\n";//imprime enter
 
 }
