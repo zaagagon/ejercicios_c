@@ -23,6 +23,8 @@ void limpiar_pantalla()
 int main(){
     //prueba 
      //limpiar_pantalla();
+     system("clear");
+     system("ls -l");//comandos unix desde cpp
     cout<<"** PRUEBA **";
     cout<<"\n";
     cout<<"Resultado de la operación : "<<suma(4,5)<<"\n";//imprime enter
