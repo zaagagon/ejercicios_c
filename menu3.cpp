@@ -6,8 +6,10 @@ int suma(int a,int b){
 }
 
 //funcion principal
+//g++ menu3.cpp -o menu3
 int main(){
     //prueba 
-    cout<<suma(4,5);
+    cout<<"** PRUEBA **";
+    cout<<suma(4,5)<<"\n";//imprime enter
 
 }
