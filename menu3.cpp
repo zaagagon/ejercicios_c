@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int suma(int a,int b){
     return a+b;
@@ -7,5 +8,6 @@ int suma(int a,int b){
 //funcion principal
 int main(){
     //prueba 
-    
+    cout<<suma(4,5);
+
 }
